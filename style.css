@@ -4,6 +4,9 @@
       background: #1abc9c;
       color: white;
       font-size: 30px;
+      background-image: url(1.jpeg), url(latian_bisdig);
+      background-size: 1800px 1200px;
+      background-repeat: no-repeat;
     }
 
     ul {
