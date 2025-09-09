@@ -1,43 +1,38 @@
-.header {
-      padding: 60px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+   }
+
+   .nav {
+    background-color: rgb(255, 255, 255);
+   }
+
+    .page-container {
+      width: 760px;
+      margin: auto;
+      background: red;
+      text-align: left;
+    }
+
+    #main-nav{
+      background-color: rgb(255, 172, 7);
       text-align: center;
-      background: #1abc9c;
-      color: white;
-      font-size: 30px;
-      background-image: url(1.jpeg), url(latian_bisdig);
-      background-size: 1800px 1200px;
-      background-repeat: no-repeat;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0; 
-      padding: 0;
-      overflow: hidden;
-      background-color: #333333;
-    }
-
-    ul li {
-      float: left;
-    }
-
-    ul li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(247, 20, 20);
       text-decoration: none;
+      margin-bottom: 5px;
     }
-
-    a:hover {
-        background-color: 3333;
-        font-size: 18px;
-
+    #main-nav a:hover{
+      color: brown;
     }
-
-    footer {
-      text-align: center;
-      padding: 3px;
-      background-color: DarkSalmon;
-      color: white;
+    #header{
+      background-color: rgb(37, 23, 236);
+      height: 150px;
+    }
+    #main-content{
+      background-color: rgb(6, 242, 41);
+    }
+    #footer{
+      background-color: rgb(200, 255, 0);
+      height: 70px;
     }
