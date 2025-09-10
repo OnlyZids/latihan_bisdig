@@ -1,3 +1,8 @@
+
+
+
+
+
 // ini tuganya js
 
 // ini variabel
@@ -106,5 +111,15 @@ billy = {firstname : "Billy" ,lastname: undefined ,fullname: "Billy"};
 window.alert ( john.fullname ); // John Doe
 window.alert ( billy.firstname ); // Billy
 
+
+alert("Hallo Guys!");
+confirm("Apakah kamu ingin melanjutkan?");
+prompt("Masukan Nama kamu:","");
+function foo() { 
+alert("Selesai menjalankan fungsi!");
+} foo(); a 
+Date("2006-06-18");
+parseInt("2");
+setTimeout(function(){ alert("Ini adalah alert dari setTimeout"); }, 3000);
 
 
